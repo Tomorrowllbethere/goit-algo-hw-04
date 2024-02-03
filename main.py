@@ -15,4 +15,4 @@ def total_salary(path):
 current_dir = pathlib.Path(__file__).parent #отримуємо шлях поточного файлу
 path=(current_dir/"salary.txt") #отримуємо шлях до текстового файла з даними про зп
 total, average = total_salary(path) #витягуємо змінні з функції
-print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}") #виводимо значення
+print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}") #виводимо значення 
