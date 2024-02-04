@@ -9,7 +9,7 @@ def add_contact(args, contacts):# функція додає дані в слов
 def change_contact(args, contacts):#фукнція змінює номер телефону, якщо імя співпадає
     name, phone= args
     contacts[name]=phone
-    return "this name is in your contacts.\nchanges done\n"
+    return "this name is in your contacts.\nNumber updated\n"
 def show_all(contacts):#функція показує всі контакти
     return contacts
 def main():#основна функція
